@@ -1,0 +1,110 @@
+[
+  {
+    "id": "msg-001",
+    "author": "Marcus Reid",
+    "channel": "sprint-4",
+    "message": "KAI-002 is completely blocked. I can't start the dashboard until Priya finishes auth. Is there any way to prioritise KAI-001?",
+    "timestamp": "2026-03-17T09:15:00",
+    "mentions": ["Priya Sharma"],
+    "has_response": false
+  },
+  {
+    "id": "msg-002",
+    "author": "Lena Fischer",
+    "channel": "sprint-4",
+    "message": "The export feature (KAI-004) is blocked on the DB migration (KAI-007). That ticket doesn't even have an assignee. Who's picking this up?",
+    "timestamp": "2026-03-17T10:30:00",
+    "mentions": [],
+    "has_response": false
+  },
+  {
+    "id": "msg-003",
+    "author": "Tom Nguyen",
+    "channel": "dev-general",
+    "message": "Payment service tests are done and in review. Should be mergeable today. @Marcus can you review when you get a chance?",
+    "timestamp": "2026-03-18T08:45:00",
+    "mentions": ["Marcus Reid"],
+    "has_response": true
+  },
+  {
+    "id": "msg-004",
+    "author": "Priya Sharma",
+    "channel": "sprint-4",
+    "message": "Auth module is about 70% done. Running into some issues with the refresh token expiry logic. Might need a day more than expected.",
+    "timestamp": "2026-03-16T14:20:00",
+    "mentions": [],
+    "has_response": true
+  },
+  {
+    "id": "msg-005",
+    "author": "Marcus Reid",
+    "channel": "dev-general",
+    "message": "Is anyone else seeing flaky tests on the CI pipeline? Three of my builds failed randomly in the last hour.",
+    "timestamp": "2026-03-18T11:00:00",
+    "mentions": [],
+    "has_response": false
+  },
+  {
+    "id": "msg-006",
+    "author": "Lena Fischer",
+    "channel": "client-comms",
+    "message": "James from Acme just called me directly about the export feature. He's pretty frustrated. We need to give him something today.",
+    "timestamp": "2026-03-18T13:45:00",
+    "mentions": [],
+    "has_response": true
+  },
+  {
+    "id": "msg-007",
+    "author": "Tom Nguyen",
+    "channel": "sprint-4",
+    "message": "Heads up — I'll be out Thursday and Friday next week at the offsite. Anything critical that needs me before then?",
+    "timestamp": "2026-03-18T15:00:00",
+    "mentions": [],
+    "has_response": false
+  },
+  {
+    "id": "msg-008",
+    "author": "Priya Sharma",
+    "channel": "dev-general",
+    "message": "The security scan flagged lodash and pillow. Who's owning KAI-010? It's unassigned and overdue.",
+    "timestamp": "2026-03-17T16:30:00",
+    "mentions": [],
+    "has_response": false
+  },
+  {
+    "id": "msg-009",
+    "author": "Marcus Reid",
+    "channel": "sprint-4",
+    "message": "Can we have a quick standup today at 2pm? A lot of things feel stuck and I want to unblock myself.",
+    "timestamp": "2026-03-19T09:00:00",
+    "mentions": [],
+    "has_response": true
+  },
+  {
+    "id": "msg-010",
+    "author": "Lena Fischer",
+    "channel": "dev-general",
+    "message": "Notification service integration is going well. SendGrid is hooked up, just testing templates now. Should be done by EOW.",
+    "timestamp": "2026-03-18T10:15:00",
+    "mentions": [],
+    "has_response": true
+  },
+  {
+    "id": "msg-011",
+    "author": "Tom Nguyen",
+    "channel": "sprint-4",
+    "message": "What's the DB migration plan? KAI-007 is blocking two other tickets and nobody owns it. Should I pick it up?",
+    "timestamp": "2026-03-19T09:30:00",
+    "mentions": [],
+    "has_response": false
+  },
+  {
+    "id": "msg-012",
+    "author": "Marcus Reid",
+    "channel": "client-comms",
+    "message": "I told James we'd have an update by 3pm today. We need to sort the export blocker before then.",
+    "timestamp": "2026-03-19T10:00:00",
+    "mentions": [],
+    "has_response": false
+  }
+]

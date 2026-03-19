@@ -1,0 +1,32 @@
+[
+  {
+    "name": "Priya Sharma",
+    "email": "priya.sharma@kairos.internal",
+    "role": "Backend Engineer",
+    "current_tasks": ["KAI-001", "KAI-003"]
+  },
+  {
+    "name": "Marcus Reid",
+    "email": "marcus.reid@kairos.internal",
+    "role": "Frontend Engineer",
+    "current_tasks": ["KAI-002"]
+  },
+  {
+    "name": "Lena Fischer",
+    "email": "lena.fischer@kairos.internal",
+    "role": "Full Stack Engineer",
+    "current_tasks": ["KAI-004", "KAI-009"]
+  },
+  {
+    "name": "Tom Nguyen",
+    "email": "tom.nguyen@kairos.internal",
+    "role": "QA / DevOps Engineer",
+    "current_tasks": ["KAI-005", "KAI-008"]
+  },
+  {
+    "name": "Sarah Park",
+    "email": "sarah.park@kairos.internal",
+    "role": "Product Manager",
+    "current_tasks": []
+  }
+]

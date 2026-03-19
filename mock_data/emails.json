@@ -1,0 +1,79 @@
+[
+  {
+    "id": "email-001",
+    "subject": "Urgent: Data export feature still missing - client escalation",
+    "from": "james.hartley@acmecorp.com",
+    "to": "pm@kairos.internal",
+    "received_date": "2026-03-14",
+    "body": "Hi, I've been waiting 2 weeks for the data export feature that was promised in our last QBR. My team cannot complete their monthly reporting without it. This is now blocking our internal audit. Please escalate immediately and provide an ETA today.",
+    "is_read": true,
+    "has_reply": false,
+    "priority": "high"
+  },
+  {
+    "id": "email-002",
+    "subject": "Sprint 4 status update required by EOD",
+    "from": "cto@kairos.internal",
+    "to": "pm@kairos.internal",
+    "received_date": "2026-03-17",
+    "body": "The board meeting is on Friday. I need a full status report on Sprint 4 by end of today — health, blockers, and delivery confidence. Please do not miss this deadline.",
+    "is_read": true,
+    "has_reply": false,
+    "priority": "high"
+  },
+  {
+    "id": "email-003",
+    "subject": "RE: Database migration approval",
+    "from": "dba-team@kairos.internal",
+    "to": "pm@kairos.internal",
+    "received_date": "2026-03-16",
+    "body": "We've reviewed the migration script. There are 3 issues we need addressed before we can approve: 1) Missing rollback script, 2) Index naming conflicts on the reporting_summary table, 3) No downtime window scheduled. Please resubmit.",
+    "is_read": true,
+    "has_reply": true,
+    "priority": "medium"
+  },
+  {
+    "id": "email-004",
+    "subject": "KAI-010 - Security audit findings",
+    "from": "security@kairos.internal",
+    "to": "pm@kairos.internal",
+    "received_date": "2026-03-15",
+    "body": "Automated scan flagged 2 critical CVEs in our current dependencies: CVE-2024-38998 in lodash and CVE-2025-0041 in pillow. These need patching before the next production release. No one has been assigned to KAI-010 yet.",
+    "is_read": false,
+    "has_reply": false,
+    "priority": "high"
+  },
+  {
+    "id": "email-005",
+    "subject": "Tom's availability next week",
+    "from": "tom.nguyen@kairos.internal",
+    "to": "pm@kairos.internal",
+    "received_date": "2026-03-18",
+    "body": "Just a heads up — I'll be at a company offsite Thursday and Friday next week, so I'll be mostly unavailable. Wanted you to know in case anything urgent comes up on the payment service review.",
+    "is_read": true,
+    "has_reply": true,
+    "priority": "low"
+  },
+  {
+    "id": "email-006",
+    "subject": "Feature request: bulk user management",
+    "from": "james.hartley@acmecorp.com",
+    "to": "pm@kairos.internal",
+    "received_date": "2026-03-13",
+    "body": "In addition to the export issue, we'd like to discuss adding bulk user import via CSV. Could we get this scoped and into the next sprint? Happy to jump on a call.",
+    "is_read": true,
+    "has_reply": true,
+    "priority": "medium"
+  },
+  {
+    "id": "email-007",
+    "subject": "Priya out sick today",
+    "from": "priya.sharma@kairos.internal",
+    "to": "pm@kairos.internal",
+    "received_date": "2026-03-19",
+    "body": "Hi, not feeling well today, I'll be offline. Will catch up on KAI-001 and KAI-003 tomorrow. Sorry for short notice.",
+    "is_read": false,
+    "has_reply": false,
+    "priority": "medium"
+  }
+]
