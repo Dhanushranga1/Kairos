@@ -36,42 +36,54 @@ export interface ChatMessage {
   content: string;
 }
 
+// Matches NormalizedData from backend
 export interface ProjectData {
-  tickets: Ticket[];
-  emails: Email[];
-  team_messages: TeamMessage[];
-  team_members: TeamMember[];
+  tickets: NormalizedTicket[];
+  emails: NormalizedEmail[];
+  messages: NormalizedMessage[];
+  members: NormalizedMember[];
 }
 
-export interface Ticket {
+export interface NormalizedTicket {
   id: string;
   title: string;
+  description: string;
   status: string;
   priority: string;
   assignee: string | null;
+  assignee_email: string | null;
   due_date: string;
+  sprint: string;
+  story_points: number;
   blocked_by: string | null;
+  labels: string[];
 }
 
-export interface Email {
+export interface NormalizedEmail {
   id: string;
   subject: string;
-  from: string;
-  received_date: string;
+  sender_name: string;
+  sender_address: string;
+  received_at: string;
+  body: string;
+  is_read: boolean;
   has_reply: boolean;
-  priority: string;
+  importance: string;
 }
 
-export interface TeamMessage {
+export interface NormalizedMessage {
   id: string;
   author: string;
   channel: string;
-  message: string;
+  body: string;
+  created_at: string;
+  mentions: string[];
   has_response: boolean;
 }
 
-export interface TeamMember {
+export interface NormalizedMember {
   name: string;
+  email: string;
   role: string;
   current_tasks: string[];
 }

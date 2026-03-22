@@ -1,0 +1,405 @@
+{
+  "expand": "schema,names",
+  "startAt": 0,
+  "maxResults": 50,
+  "total": 10,
+  "issues": [
+    {
+      "id": "10001",
+      "key": "KAI-001",
+      "self": "https://kairos.atlassian.net/rest/api/3/issue/10001",
+      "fields": {
+        "summary": "Implement user authentication module",
+        "description": {
+          "type": "doc",
+          "version": 1,
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [{ "type": "text", "text": "Build JWT-based auth with login, logout, and refresh token support." }]
+            }
+          ]
+        },
+        "status": {
+          "self": "https://kairos.atlassian.net/rest/api/3/status/3",
+          "name": "In Progress",
+          "statusCategory": { "key": "indeterminate", "name": "In Progress" }
+        },
+        "priority": { "name": "High", "iconUrl": "https://kairos.atlassian.net/images/icons/priorities/high.svg" },
+        "assignee": {
+          "accountId": "user-priya-001",
+          "displayName": "Priya Sharma",
+          "emailAddress": "priya.sharma@kairos.internal",
+          "avatarUrls": {}
+        },
+        "reporter": {
+          "accountId": "user-sarah-001",
+          "displayName": "Sarah Park",
+          "emailAddress": "sarah.park@kairos.internal"
+        },
+        "duedate": "2026-03-10",
+        "created": "2026-03-01T09:00:00.000+0000",
+        "updated": "2026-03-17T14:30:00.000+0000",
+        "labels": ["backend", "security"],
+        "customfield_10016": 8,
+        "customfield_10020": {
+          "id": 1,
+          "name": "Sprint 4",
+          "state": "active",
+          "startDate": "2026-03-03T00:00:00.000Z",
+          "endDate": "2026-03-21T00:00:00.000Z"
+        },
+        "issuelinks": [],
+        "subtasks": [],
+        "components": [{ "name": "Backend" }]
+      }
+    },
+    {
+      "id": "10002",
+      "key": "KAI-002",
+      "self": "https://kairos.atlassian.net/rest/api/3/issue/10002",
+      "fields": {
+        "summary": "Dashboard UI - data visualisation components",
+        "description": {
+          "type": "doc",
+          "version": 1,
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [{ "type": "text", "text": "Build charts and KPI cards for the main dashboard using Recharts." }]
+            }
+          ]
+        },
+        "status": {
+          "self": "https://kairos.atlassian.net/rest/api/3/status/10006",
+          "name": "Blocked",
+          "statusCategory": { "key": "new", "name": "To Do" }
+        },
+        "priority": { "name": "High" },
+        "assignee": {
+          "accountId": "user-marcus-001",
+          "displayName": "Marcus Reid",
+          "emailAddress": "marcus.reid@kairos.internal",
+          "avatarUrls": {}
+        },
+        "reporter": { "accountId": "user-sarah-001", "displayName": "Sarah Park", "emailAddress": "sarah.park@kairos.internal" },
+        "duedate": "2026-03-12",
+        "created": "2026-03-01T09:00:00.000+0000",
+        "updated": "2026-03-17T09:15:00.000+0000",
+        "labels": ["frontend", "ui"],
+        "customfield_10016": 5,
+        "customfield_10020": {
+          "id": 1, "name": "Sprint 4", "state": "active",
+          "startDate": "2026-03-03T00:00:00.000Z", "endDate": "2026-03-21T00:00:00.000Z"
+        },
+        "issuelinks": [
+          {
+            "id": "20001",
+            "type": { "id": "10020", "name": "Blocks", "inward": "is blocked by", "outward": "blocks" },
+            "inwardIssue": {
+              "id": "10001", "key": "KAI-001",
+              "fields": { "summary": "Implement user authentication module", "status": { "name": "In Progress" } }
+            }
+          }
+        ],
+        "subtasks": [],
+        "components": [{ "name": "Frontend" }]
+      }
+    },
+    {
+      "id": "10003",
+      "key": "KAI-003",
+      "self": "https://kairos.atlassian.net/rest/api/3/issue/10003",
+      "fields": {
+        "summary": "API rate limiting and throttling",
+        "description": {
+          "type": "doc",
+          "version": 1,
+          "content": [
+            { "type": "paragraph", "content": [{ "type": "text", "text": "Add rate limiting middleware to all public endpoints." }] }
+          ]
+        },
+        "status": {
+          "self": "https://kairos.atlassian.net/rest/api/3/status/1",
+          "name": "To Do",
+          "statusCategory": { "key": "new", "name": "To Do" }
+        },
+        "priority": { "name": "Medium" },
+        "assignee": {
+          "accountId": "user-priya-001",
+          "displayName": "Priya Sharma",
+          "emailAddress": "priya.sharma@kairos.internal",
+          "avatarUrls": {}
+        },
+        "reporter": { "accountId": "user-sarah-001", "displayName": "Sarah Park", "emailAddress": "sarah.park@kairos.internal" },
+        "duedate": "2026-03-20",
+        "created": "2026-03-01T09:00:00.000+0000",
+        "updated": "2026-03-10T11:00:00.000+0000",
+        "labels": ["backend", "performance"],
+        "customfield_10016": 3,
+        "customfield_10020": { "id": 1, "name": "Sprint 4", "state": "active", "startDate": "2026-03-03T00:00:00.000Z", "endDate": "2026-03-21T00:00:00.000Z" },
+        "issuelinks": [],
+        "subtasks": [],
+        "components": [{ "name": "Backend" }]
+      }
+    },
+    {
+      "id": "10004",
+      "key": "KAI-004",
+      "self": "https://kairos.atlassian.net/rest/api/3/issue/10004",
+      "fields": {
+        "summary": "Client data export feature",
+        "description": {
+          "type": "doc",
+          "version": 1,
+          "content": [
+            { "type": "paragraph", "content": [{ "type": "text", "text": "Allow users to export reports as CSV and PDF." }] }
+          ]
+        },
+        "status": {
+          "self": "https://kairos.atlassian.net/rest/api/3/status/10006",
+          "name": "Blocked",
+          "statusCategory": { "key": "new", "name": "To Do" }
+        },
+        "priority": { "name": "High" },
+        "assignee": {
+          "accountId": "user-lena-001",
+          "displayName": "Lena Fischer",
+          "emailAddress": "lena.fischer@kairos.internal",
+          "avatarUrls": {}
+        },
+        "reporter": { "accountId": "user-sarah-001", "displayName": "Sarah Park", "emailAddress": "sarah.park@kairos.internal" },
+        "duedate": "2026-03-08",
+        "created": "2026-03-01T09:00:00.000+0000",
+        "updated": "2026-03-17T10:30:00.000+0000",
+        "labels": ["feature", "client-request"],
+        "customfield_10016": 6,
+        "customfield_10020": { "id": 1, "name": "Sprint 4", "state": "active", "startDate": "2026-03-03T00:00:00.000Z", "endDate": "2026-03-21T00:00:00.000Z" },
+        "issuelinks": [
+          {
+            "id": "20002",
+            "type": { "id": "10020", "name": "Blocks", "inward": "is blocked by", "outward": "blocks" },
+            "inwardIssue": {
+              "id": "10007", "key": "KAI-007",
+              "fields": { "summary": "Reporting database schema migration", "status": { "name": "To Do" } }
+            }
+          }
+        ],
+        "subtasks": [],
+        "components": [{ "name": "Backend" }, { "name": "Frontend" }]
+      }
+    },
+    {
+      "id": "10005",
+      "key": "KAI-005",
+      "self": "https://kairos.atlassian.net/rest/api/3/issue/10005",
+      "fields": {
+        "summary": "Write unit tests for payment service",
+        "description": {
+          "type": "doc",
+          "version": 1,
+          "content": [
+            { "type": "paragraph", "content": [{ "type": "text", "text": "Cover edge cases for payment processing and refund logic." }] }
+          ]
+        },
+        "status": {
+          "self": "https://kairos.atlassian.net/rest/api/3/status/10001",
+          "name": "In Review",
+          "statusCategory": { "key": "indeterminate", "name": "In Progress" }
+        },
+        "priority": { "name": "Medium" },
+        "assignee": {
+          "accountId": "user-tom-001",
+          "displayName": "Tom Nguyen",
+          "emailAddress": "tom.nguyen@kairos.internal",
+          "avatarUrls": {}
+        },
+        "reporter": { "accountId": "user-sarah-001", "displayName": "Sarah Park", "emailAddress": "sarah.park@kairos.internal" },
+        "duedate": "2026-03-18",
+        "created": "2026-03-01T09:00:00.000+0000",
+        "updated": "2026-03-18T08:45:00.000+0000",
+        "labels": ["testing", "payments"],
+        "customfield_10016": 4,
+        "customfield_10020": { "id": 1, "name": "Sprint 4", "state": "active", "startDate": "2026-03-03T00:00:00.000Z", "endDate": "2026-03-21T00:00:00.000Z" },
+        "issuelinks": [],
+        "subtasks": [],
+        "components": [{ "name": "QA" }]
+      }
+    },
+    {
+      "id": "10006",
+      "key": "KAI-006",
+      "self": "https://kairos.atlassian.net/rest/api/3/issue/10006",
+      "fields": {
+        "summary": "Mobile responsive layout fixes",
+        "description": {
+          "type": "doc",
+          "version": 1,
+          "content": [
+            { "type": "paragraph", "content": [{ "type": "text", "text": "Fix layout breakpoints on tablet and mobile for all pages." }] }
+          ]
+        },
+        "status": {
+          "self": "https://kairos.atlassian.net/rest/api/3/status/10002",
+          "name": "Done",
+          "statusCategory": { "key": "done", "name": "Done" }
+        },
+        "priority": { "name": "Low" },
+        "assignee": {
+          "accountId": "user-marcus-001",
+          "displayName": "Marcus Reid",
+          "emailAddress": "marcus.reid@kairos.internal",
+          "avatarUrls": {}
+        },
+        "reporter": { "accountId": "user-sarah-001", "displayName": "Sarah Park", "emailAddress": "sarah.park@kairos.internal" },
+        "duedate": "2026-03-14",
+        "created": "2026-03-01T09:00:00.000+0000",
+        "updated": "2026-03-14T16:00:00.000+0000",
+        "labels": ["frontend", "css"],
+        "customfield_10016": 2,
+        "customfield_10020": { "id": 1, "name": "Sprint 4", "state": "active", "startDate": "2026-03-03T00:00:00.000Z", "endDate": "2026-03-21T00:00:00.000Z" },
+        "issuelinks": [],
+        "subtasks": [],
+        "components": [{ "name": "Frontend" }]
+      }
+    },
+    {
+      "id": "10007",
+      "key": "KAI-007",
+      "self": "https://kairos.atlassian.net/rest/api/3/issue/10007",
+      "fields": {
+        "summary": "Reporting database schema migration",
+        "description": {
+          "type": "doc",
+          "version": 1,
+          "content": [
+            { "type": "paragraph", "content": [{ "type": "text", "text": "Migrate reporting tables to new normalised schema. Requires DBA approval." }] }
+          ]
+        },
+        "status": {
+          "self": "https://kairos.atlassian.net/rest/api/3/status/1",
+          "name": "To Do",
+          "statusCategory": { "key": "new", "name": "To Do" }
+        },
+        "priority": { "name": "High" },
+        "assignee": null,
+        "reporter": { "accountId": "user-sarah-001", "displayName": "Sarah Park", "emailAddress": "sarah.park@kairos.internal" },
+        "duedate": "2026-03-05",
+        "created": "2026-03-01T09:00:00.000+0000",
+        "updated": "2026-03-16T10:00:00.000+0000",
+        "labels": ["database", "migration"],
+        "customfield_10016": 8,
+        "customfield_10020": { "id": 1, "name": "Sprint 4", "state": "active", "startDate": "2026-03-03T00:00:00.000Z", "endDate": "2026-03-21T00:00:00.000Z" },
+        "issuelinks": [],
+        "subtasks": [],
+        "components": [{ "name": "Backend" }]
+      }
+    },
+    {
+      "id": "10008",
+      "key": "KAI-008",
+      "self": "https://kairos.atlassian.net/rest/api/3/issue/10008",
+      "fields": {
+        "summary": "Set up CI/CD pipeline for staging",
+        "description": {
+          "type": "doc",
+          "version": 1,
+          "content": [
+            { "type": "paragraph", "content": [{ "type": "text", "text": "Configure GitHub Actions to auto-deploy to staging on merge to main." }] }
+          ]
+        },
+        "status": {
+          "self": "https://kairos.atlassian.net/rest/api/3/status/10002",
+          "name": "Done",
+          "statusCategory": { "key": "done", "name": "Done" }
+        },
+        "priority": { "name": "Medium" },
+        "assignee": {
+          "accountId": "user-tom-001",
+          "displayName": "Tom Nguyen",
+          "emailAddress": "tom.nguyen@kairos.internal",
+          "avatarUrls": {}
+        },
+        "reporter": { "accountId": "user-sarah-001", "displayName": "Sarah Park", "emailAddress": "sarah.park@kairos.internal" },
+        "duedate": "2026-03-15",
+        "created": "2026-03-01T09:00:00.000+0000",
+        "updated": "2026-03-15T15:00:00.000+0000",
+        "labels": ["devops"],
+        "customfield_10016": 3,
+        "customfield_10020": { "id": 1, "name": "Sprint 4", "state": "active", "startDate": "2026-03-03T00:00:00.000Z", "endDate": "2026-03-21T00:00:00.000Z" },
+        "issuelinks": [],
+        "subtasks": [],
+        "components": [{ "name": "DevOps" }]
+      }
+    },
+    {
+      "id": "10009",
+      "key": "KAI-009",
+      "self": "https://kairos.atlassian.net/rest/api/3/issue/10009",
+      "fields": {
+        "summary": "Notification service integration",
+        "description": {
+          "type": "doc",
+          "version": 1,
+          "content": [
+            { "type": "paragraph", "content": [{ "type": "text", "text": "Integrate SendGrid for transactional emails and in-app notifications." }] }
+          ]
+        },
+        "status": {
+          "self": "https://kairos.atlassian.net/rest/api/3/status/3",
+          "name": "In Progress",
+          "statusCategory": { "key": "indeterminate", "name": "In Progress" }
+        },
+        "priority": { "name": "Medium" },
+        "assignee": {
+          "accountId": "user-lena-001",
+          "displayName": "Lena Fischer",
+          "emailAddress": "lena.fischer@kairos.internal",
+          "avatarUrls": {}
+        },
+        "reporter": { "accountId": "user-sarah-001", "displayName": "Sarah Park", "emailAddress": "sarah.park@kairos.internal" },
+        "duedate": "2026-03-22",
+        "created": "2026-03-01T09:00:00.000+0000",
+        "updated": "2026-03-18T10:15:00.000+0000",
+        "labels": ["backend", "notifications"],
+        "customfield_10016": 5,
+        "customfield_10020": { "id": 1, "name": "Sprint 4", "state": "active", "startDate": "2026-03-03T00:00:00.000Z", "endDate": "2026-03-21T00:00:00.000Z" },
+        "issuelinks": [],
+        "subtasks": [],
+        "components": [{ "name": "Backend" }]
+      }
+    },
+    {
+      "id": "10010",
+      "key": "KAI-010",
+      "self": "https://kairos.atlassian.net/rest/api/3/issue/10010",
+      "fields": {
+        "summary": "Security audit - dependency vulnerabilities",
+        "description": {
+          "type": "doc",
+          "version": 1,
+          "content": [
+            { "type": "paragraph", "content": [{ "type": "text", "text": "Run npm audit and pip-audit, patch all high/critical CVEs including CVE-2024-38998 in lodash and CVE-2025-0041 in pillow." }] }
+          ]
+        },
+        "status": {
+          "self": "https://kairos.atlassian.net/rest/api/3/status/1",
+          "name": "To Do",
+          "statusCategory": { "key": "new", "name": "To Do" }
+        },
+        "priority": { "name": "High" },
+        "assignee": null,
+        "reporter": { "accountId": "user-sarah-001", "displayName": "Sarah Park", "emailAddress": "sarah.park@kairos.internal" },
+        "duedate": "2026-03-11",
+        "created": "2026-03-01T09:00:00.000+0000",
+        "updated": "2026-03-15T09:00:00.000+0000",
+        "labels": ["security", "maintenance"],
+        "customfield_10016": 4,
+        "customfield_10020": { "id": 1, "name": "Sprint 4", "state": "active", "startDate": "2026-03-03T00:00:00.000Z", "endDate": "2026-03-21T00:00:00.000Z" },
+        "issuelinks": [],
+        "subtasks": [],
+        "components": [{ "name": "Backend" }, { "name": "Frontend" }]
+      }
+    }
+  ]
+}

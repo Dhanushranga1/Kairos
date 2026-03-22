@@ -5,7 +5,7 @@ from fastapi import FastAPI, HTTPException
 from fastapi.middleware.cors import CORSMiddleware
 from pydantic import BaseModel
 
-from data_loader import load_all
+from sources.factory import get_source
 from agent import run_analysis, chat
 
 app = FastAPI(title="Kairos API")
@@ -30,13 +30,15 @@ def health():
 
 @app.get("/api/data")
 def get_data():
-    return load_all()
+    source = get_source()
+    data = source.get_all()
+    return data.model_dump()
 
 
 @app.post("/api/analyse")
 def analyse():
     try:
-        data = load_all()
+        data = get_source().get_all()
         result = run_analysis(data)
         return result
     except Exception as e:
@@ -46,7 +48,7 @@ def analyse():
 @app.post("/api/chat")
 def chat_endpoint(req: ChatRequest):
     try:
-        data = load_all()
+        data = get_source().get_all()
         reply = chat(req.message, req.history, data)
         return {"reply": reply}
     except Exception as e:

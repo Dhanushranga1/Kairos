@@ -1,0 +1,202 @@
+{
+  "@odata.context": "https://graph.microsoft.com/v1.0/$metadata#users('pm%40kairos.internal')/messages",
+  "@odata.count": 7,
+  "value": [
+    {
+      "id": "AAMkAGI2THVSAAAEmailClient001",
+      "subject": "Urgent: Data export feature still missing - client escalation",
+      "from": {
+        "emailAddress": {
+          "name": "James Hartley",
+          "address": "james.hartley@acmecorp.com"
+        }
+      },
+      "toRecipients": [
+        { "emailAddress": { "name": "PM", "address": "pm@kairos.internal" } }
+      ],
+      "receivedDateTime": "2026-03-14T09:23:00Z",
+      "body": {
+        "contentType": "text",
+        "content": "Hi, I've been waiting 2 weeks for the data export feature that was promised in our last QBR. My team cannot complete their monthly reporting without it. This is now blocking our internal audit. Please escalate immediately and provide an ETA today."
+      },
+      "isRead": true,
+      "importance": "high",
+      "hasAttachments": false,
+      "conversationId": "AAQkAGI2ConvClient001",
+      "conversationIndex": "AQHZnZmA",
+      "inferenceClassification": "focused",
+      "flag": { "flagStatus": "notFlagged" },
+      "singleValueExtendedProperties": [
+        { "id": "String {b3c31a18-86c4-4f9d-84f0-e6b0d60a09d2} Name hasReply", "value": "false" }
+      ]
+    },
+    {
+      "id": "AAMkAGI2THVSAAAEmailCTO002",
+      "subject": "Sprint 4 status update required by EOD",
+      "from": {
+        "emailAddress": {
+          "name": "Alex Morgan (CTO)",
+          "address": "cto@kairos.internal"
+        }
+      },
+      "toRecipients": [
+        { "emailAddress": { "name": "PM", "address": "pm@kairos.internal" } }
+      ],
+      "receivedDateTime": "2026-03-17T08:05:00Z",
+      "body": {
+        "contentType": "text",
+        "content": "The board meeting is on Friday. I need a full status report on Sprint 4 by end of today — health, blockers, and delivery confidence. Please do not miss this deadline."
+      },
+      "isRead": true,
+      "importance": "high",
+      "hasAttachments": false,
+      "conversationId": "AAQkAGI2ConvCTO002",
+      "conversationIndex": "AQHZnZmB",
+      "inferenceClassification": "focused",
+      "flag": { "flagStatus": "flagged" },
+      "singleValueExtendedProperties": [
+        { "id": "String {b3c31a18-86c4-4f9d-84f0-e6b0d60a09d2} Name hasReply", "value": "false" }
+      ]
+    },
+    {
+      "id": "AAMkAGI2THVSAAAEmailDBA003",
+      "subject": "RE: Database migration approval - issues found",
+      "from": {
+        "emailAddress": {
+          "name": "DBA Team",
+          "address": "dba-team@kairos.internal"
+        }
+      },
+      "toRecipients": [
+        { "emailAddress": { "name": "PM", "address": "pm@kairos.internal" } }
+      ],
+      "receivedDateTime": "2026-03-16T14:22:00Z",
+      "body": {
+        "contentType": "text",
+        "content": "We've reviewed the migration script. There are 3 issues we need addressed before we can approve: 1) Missing rollback script, 2) Index naming conflicts on the reporting_summary table, 3) No downtime window scheduled. Please resubmit."
+      },
+      "isRead": true,
+      "importance": "normal",
+      "hasAttachments": false,
+      "conversationId": "AAQkAGI2ConvDBA003",
+      "conversationIndex": "AQHZnZmC",
+      "inferenceClassification": "focused",
+      "flag": { "flagStatus": "notFlagged" },
+      "singleValueExtendedProperties": [
+        { "id": "String {b3c31a18-86c4-4f9d-84f0-e6b0d60a09d2} Name hasReply", "value": "true" }
+      ]
+    },
+    {
+      "id": "AAMkAGI2THVSAAAEmailSecurity004",
+      "subject": "KAI-010 - Security audit findings: 2 critical CVEs",
+      "from": {
+        "emailAddress": {
+          "name": "Security Team",
+          "address": "security@kairos.internal"
+        }
+      },
+      "toRecipients": [
+        { "emailAddress": { "name": "PM", "address": "pm@kairos.internal" } }
+      ],
+      "receivedDateTime": "2026-03-15T11:45:00Z",
+      "body": {
+        "contentType": "text",
+        "content": "Automated scan flagged 2 critical CVEs in our current dependencies: CVE-2024-38998 in lodash and CVE-2025-0041 in pillow. These need patching before the next production release. No one has been assigned to KAI-010 yet."
+      },
+      "isRead": false,
+      "importance": "high",
+      "hasAttachments": true,
+      "conversationId": "AAQkAGI2ConvSecurity004",
+      "conversationIndex": "AQHZnZmD",
+      "inferenceClassification": "focused",
+      "flag": { "flagStatus": "notFlagged" },
+      "singleValueExtendedProperties": [
+        { "id": "String {b3c31a18-86c4-4f9d-84f0-e6b0d60a09d2} Name hasReply", "value": "false" }
+      ]
+    },
+    {
+      "id": "AAMkAGI2THVSAAAEmailTom005",
+      "subject": "Availability - offsite next week Thu/Fri",
+      "from": {
+        "emailAddress": {
+          "name": "Tom Nguyen",
+          "address": "tom.nguyen@kairos.internal"
+        }
+      },
+      "toRecipients": [
+        { "emailAddress": { "name": "PM", "address": "pm@kairos.internal" } }
+      ],
+      "receivedDateTime": "2026-03-18T15:10:00Z",
+      "body": {
+        "contentType": "text",
+        "content": "Just a heads up — I'll be at a company offsite Thursday and Friday next week, so I'll be mostly unavailable. Wanted you to know in case anything urgent comes up on the payment service review."
+      },
+      "isRead": true,
+      "importance": "low",
+      "hasAttachments": false,
+      "conversationId": "AAQkAGI2ConvTom005",
+      "conversationIndex": "AQHZnZmE",
+      "inferenceClassification": "other",
+      "flag": { "flagStatus": "notFlagged" },
+      "singleValueExtendedProperties": [
+        { "id": "String {b3c31a18-86c4-4f9d-84f0-e6b0d60a09d2} Name hasReply", "value": "true" }
+      ]
+    },
+    {
+      "id": "AAMkAGI2THVSAAAEmailClientFeature006",
+      "subject": "Feature request: bulk user management",
+      "from": {
+        "emailAddress": {
+          "name": "James Hartley",
+          "address": "james.hartley@acmecorp.com"
+        }
+      },
+      "toRecipients": [
+        { "emailAddress": { "name": "PM", "address": "pm@kairos.internal" } }
+      ],
+      "receivedDateTime": "2026-03-13T16:30:00Z",
+      "body": {
+        "contentType": "text",
+        "content": "In addition to the export issue, we'd like to discuss adding bulk user import via CSV. Could we get this scoped and into the next sprint? Happy to jump on a call."
+      },
+      "isRead": true,
+      "importance": "normal",
+      "hasAttachments": false,
+      "conversationId": "AAQkAGI2ConvClientFeature006",
+      "conversationIndex": "AQHZnZmF",
+      "inferenceClassification": "focused",
+      "flag": { "flagStatus": "notFlagged" },
+      "singleValueExtendedProperties": [
+        { "id": "String {b3c31a18-86c4-4f9d-84f0-e6b0d60a09d2} Name hasReply", "value": "true" }
+      ]
+    },
+    {
+      "id": "AAMkAGI2THVSAAAEmailPriya007",
+      "subject": "Out sick today",
+      "from": {
+        "emailAddress": {
+          "name": "Priya Sharma",
+          "address": "priya.sharma@kairos.internal"
+        }
+      },
+      "toRecipients": [
+        { "emailAddress": { "name": "PM", "address": "pm@kairos.internal" } }
+      ],
+      "receivedDateTime": "2026-03-19T07:55:00Z",
+      "body": {
+        "contentType": "text",
+        "content": "Hi, not feeling well today, I'll be offline. Will catch up on KAI-001 and KAI-003 tomorrow. Sorry for short notice."
+      },
+      "isRead": false,
+      "importance": "normal",
+      "hasAttachments": false,
+      "conversationId": "AAQkAGI2ConvPriya007",
+      "conversationIndex": "AQHZnZmG",
+      "inferenceClassification": "focused",
+      "flag": { "flagStatus": "notFlagged" },
+      "singleValueExtendedProperties": [
+        { "id": "String {b3c31a18-86c4-4f9d-84f0-e6b0d60a09d2} Name hasReply", "value": "false" }
+      ]
+    }
+  ]
+}

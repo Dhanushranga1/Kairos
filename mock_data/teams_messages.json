@@ -1,0 +1,394 @@
+{
+  "@odata.context": "https://graph.microsoft.com/v1.0/$metadata#teams('team-kairos-001')/channels/messages",
+  "@odata.count": 12,
+  "value": [
+    {
+      "id": "1742202900000",
+      "messageType": "message",
+      "createdDateTime": "2026-03-17T09:15:00Z",
+      "lastModifiedDateTime": "2026-03-17T09:15:00Z",
+      "from": {
+        "user": {
+          "id": "user-marcus-001",
+          "displayName": "Marcus Reid",
+          "userIdentityType": "aadUser"
+        }
+      },
+      "body": {
+        "contentType": "text",
+        "content": "KAI-002 is completely blocked. I can't start the dashboard until Priya finishes auth. Is there any way to prioritise KAI-001?"
+      },
+      "channelIdentity": {
+        "teamId": "team-kairos-001",
+        "channelId": "channel-sprint4-001"
+      },
+      "channelDisplayName": "sprint-4",
+      "importance": "normal",
+      "locale": "en-us",
+      "mentions": [
+        {
+          "id": 0,
+          "mentionText": "Priya Sharma",
+          "mentioned": {
+            "user": { "id": "user-priya-001", "displayName": "Priya Sharma", "userIdentityType": "aadUser" }
+          }
+        }
+      ],
+      "attachments": [],
+      "reactions": [],
+      "replyToId": null,
+      "singleValueExtendedProperties": [
+        { "id": "String {b3c31a18-86c4-4f9d-84f0-e6b0d60a09d2} Name hasResponse", "value": "false" }
+      ]
+    },
+    {
+      "id": "1742207400000",
+      "messageType": "message",
+      "createdDateTime": "2026-03-17T10:30:00Z",
+      "lastModifiedDateTime": "2026-03-17T10:30:00Z",
+      "from": {
+        "user": {
+          "id": "user-lena-001",
+          "displayName": "Lena Fischer",
+          "userIdentityType": "aadUser"
+        }
+      },
+      "body": {
+        "contentType": "text",
+        "content": "The export feature (KAI-004) is blocked on the DB migration (KAI-007). That ticket doesn't even have an assignee. Who's picking this up?"
+      },
+      "channelIdentity": {
+        "teamId": "team-kairos-001",
+        "channelId": "channel-sprint4-001"
+      },
+      "channelDisplayName": "sprint-4",
+      "importance": "normal",
+      "locale": "en-us",
+      "mentions": [],
+      "attachments": [],
+      "reactions": [],
+      "replyToId": null,
+      "singleValueExtendedProperties": [
+        { "id": "String {b3c31a18-86c4-4f9d-84f0-e6b0d60a09d2} Name hasResponse", "value": "false" }
+      ]
+    },
+    {
+      "id": "1742287500000",
+      "messageType": "message",
+      "createdDateTime": "2026-03-18T08:45:00Z",
+      "lastModifiedDateTime": "2026-03-18T08:45:00Z",
+      "from": {
+        "user": {
+          "id": "user-tom-001",
+          "displayName": "Tom Nguyen",
+          "userIdentityType": "aadUser"
+        }
+      },
+      "body": {
+        "contentType": "text",
+        "content": "Payment service tests are done and in review. Should be mergeable today. @Marcus can you review when you get a chance?"
+      },
+      "channelIdentity": {
+        "teamId": "team-kairos-001",
+        "channelId": "channel-devgeneral-001"
+      },
+      "channelDisplayName": "dev-general",
+      "importance": "normal",
+      "locale": "en-us",
+      "mentions": [
+        {
+          "id": 0,
+          "mentionText": "Marcus",
+          "mentioned": {
+            "user": { "id": "user-marcus-001", "displayName": "Marcus Reid", "userIdentityType": "aadUser" }
+          }
+        }
+      ],
+      "attachments": [],
+      "reactions": [{ "reactionType": "like", "count": 1 }],
+      "replyToId": null,
+      "singleValueExtendedProperties": [
+        { "id": "String {b3c31a18-86c4-4f9d-84f0-e6b0d60a09d2} Name hasResponse", "value": "true" }
+      ]
+    },
+    {
+      "id": "1742132400000",
+      "messageType": "message",
+      "createdDateTime": "2026-03-16T14:20:00Z",
+      "lastModifiedDateTime": "2026-03-16T14:20:00Z",
+      "from": {
+        "user": {
+          "id": "user-priya-001",
+          "displayName": "Priya Sharma",
+          "userIdentityType": "aadUser"
+        }
+      },
+      "body": {
+        "contentType": "text",
+        "content": "Auth module is about 70% done. Running into some issues with the refresh token expiry logic. Might need a day more than expected."
+      },
+      "channelIdentity": {
+        "teamId": "team-kairos-001",
+        "channelId": "channel-sprint4-001"
+      },
+      "channelDisplayName": "sprint-4",
+      "importance": "normal",
+      "locale": "en-us",
+      "mentions": [],
+      "attachments": [],
+      "reactions": [{ "reactionType": "thumbsUp", "count": 2 }],
+      "replyToId": null,
+      "singleValueExtendedProperties": [
+        { "id": "String {b3c31a18-86c4-4f9d-84f0-e6b0d60a09d2} Name hasResponse", "value": "true" }
+      ]
+    },
+    {
+      "id": "1742295600000",
+      "messageType": "message",
+      "createdDateTime": "2026-03-18T11:00:00Z",
+      "lastModifiedDateTime": "2026-03-18T11:00:00Z",
+      "from": {
+        "user": {
+          "id": "user-marcus-001",
+          "displayName": "Marcus Reid",
+          "userIdentityType": "aadUser"
+        }
+      },
+      "body": {
+        "contentType": "text",
+        "content": "Is anyone else seeing flaky tests on the CI pipeline? Three of my builds failed randomly in the last hour."
+      },
+      "channelIdentity": {
+        "teamId": "team-kairos-001",
+        "channelId": "channel-devgeneral-001"
+      },
+      "channelDisplayName": "dev-general",
+      "importance": "normal",
+      "locale": "en-us",
+      "mentions": [],
+      "attachments": [],
+      "reactions": [],
+      "replyToId": null,
+      "singleValueExtendedProperties": [
+        { "id": "String {b3c31a18-86c4-4f9d-84f0-e6b0d60a09d2} Name hasResponse", "value": "false" }
+      ]
+    },
+    {
+      "id": "1742309100000",
+      "messageType": "message",
+      "createdDateTime": "2026-03-18T14:45:00Z",
+      "lastModifiedDateTime": "2026-03-18T14:45:00Z",
+      "from": {
+        "user": {
+          "id": "user-lena-001",
+          "displayName": "Lena Fischer",
+          "userIdentityType": "aadUser"
+        }
+      },
+      "body": {
+        "contentType": "text",
+        "content": "James from Acme just called me directly about the export feature. He's pretty frustrated. We need to give him something today."
+      },
+      "channelIdentity": {
+        "teamId": "team-kairos-001",
+        "channelId": "channel-clientcomms-001"
+      },
+      "channelDisplayName": "client-comms",
+      "importance": "high",
+      "locale": "en-us",
+      "mentions": [],
+      "attachments": [],
+      "reactions": [{ "reactionType": "eyes", "count": 3 }],
+      "replyToId": null,
+      "singleValueExtendedProperties": [
+        { "id": "String {b3c31a18-86c4-4f9d-84f0-e6b0d60a09d2} Name hasResponse", "value": "true" }
+      ]
+    },
+    {
+      "id": "1742314800000",
+      "messageType": "message",
+      "createdDateTime": "2026-03-18T16:00:00Z",
+      "lastModifiedDateTime": "2026-03-18T16:00:00Z",
+      "from": {
+        "user": {
+          "id": "user-tom-001",
+          "displayName": "Tom Nguyen",
+          "userIdentityType": "aadUser"
+        }
+      },
+      "body": {
+        "contentType": "text",
+        "content": "Heads up — I'll be out Thursday and Friday next week at the offsite. Anything critical that needs me before then?"
+      },
+      "channelIdentity": {
+        "teamId": "team-kairos-001",
+        "channelId": "channel-sprint4-001"
+      },
+      "channelDisplayName": "sprint-4",
+      "importance": "normal",
+      "locale": "en-us",
+      "mentions": [],
+      "attachments": [],
+      "reactions": [],
+      "replyToId": null,
+      "singleValueExtendedProperties": [
+        { "id": "String {b3c31a18-86c4-4f9d-84f0-e6b0d60a09d2} Name hasResponse", "value": "false" }
+      ]
+    },
+    {
+      "id": "1742222200000",
+      "messageType": "message",
+      "createdDateTime": "2026-03-17T16:30:00Z",
+      "lastModifiedDateTime": "2026-03-17T16:30:00Z",
+      "from": {
+        "user": {
+          "id": "user-priya-001",
+          "displayName": "Priya Sharma",
+          "userIdentityType": "aadUser"
+        }
+      },
+      "body": {
+        "contentType": "text",
+        "content": "The security scan flagged lodash and pillow. Who's owning KAI-010? It's unassigned and overdue."
+      },
+      "channelIdentity": {
+        "teamId": "team-kairos-001",
+        "channelId": "channel-devgeneral-001"
+      },
+      "channelDisplayName": "dev-general",
+      "importance": "normal",
+      "locale": "en-us",
+      "mentions": [],
+      "attachments": [],
+      "reactions": [],
+      "replyToId": null,
+      "singleValueExtendedProperties": [
+        { "id": "String {b3c31a18-86c4-4f9d-84f0-e6b0d60a09d2} Name hasResponse", "value": "false" }
+      ]
+    },
+    {
+      "id": "1742374800000",
+      "messageType": "message",
+      "createdDateTime": "2026-03-19T09:00:00Z",
+      "lastModifiedDateTime": "2026-03-19T09:00:00Z",
+      "from": {
+        "user": {
+          "id": "user-marcus-001",
+          "displayName": "Marcus Reid",
+          "userIdentityType": "aadUser"
+        }
+      },
+      "body": {
+        "contentType": "text",
+        "content": "Can we have a quick standup today at 2pm? A lot of things feel stuck and I want to unblock myself."
+      },
+      "channelIdentity": {
+        "teamId": "team-kairos-001",
+        "channelId": "channel-sprint4-001"
+      },
+      "channelDisplayName": "sprint-4",
+      "importance": "normal",
+      "locale": "en-us",
+      "mentions": [],
+      "attachments": [],
+      "reactions": [{ "reactionType": "like", "count": 4 }],
+      "replyToId": null,
+      "singleValueExtendedProperties": [
+        { "id": "String {b3c31a18-86c4-4f9d-84f0-e6b0d60a09d2} Name hasResponse", "value": "true" }
+      ]
+    },
+    {
+      "id": "1742291100000",
+      "messageType": "message",
+      "createdDateTime": "2026-03-18T10:15:00Z",
+      "lastModifiedDateTime": "2026-03-18T10:15:00Z",
+      "from": {
+        "user": {
+          "id": "user-lena-001",
+          "displayName": "Lena Fischer",
+          "userIdentityType": "aadUser"
+        }
+      },
+      "body": {
+        "contentType": "text",
+        "content": "Notification service integration is going well. SendGrid is hooked up, just testing templates now. Should be done by EOW."
+      },
+      "channelIdentity": {
+        "teamId": "team-kairos-001",
+        "channelId": "channel-devgeneral-001"
+      },
+      "channelDisplayName": "dev-general",
+      "importance": "normal",
+      "locale": "en-us",
+      "mentions": [],
+      "attachments": [],
+      "reactions": [{ "reactionType": "thumbsUp", "count": 2 }],
+      "replyToId": null,
+      "singleValueExtendedProperties": [
+        { "id": "String {b3c31a18-86c4-4f9d-84f0-e6b0d60a09d2} Name hasResponse", "value": "true" }
+      ]
+    },
+    {
+      "id": "1742378700000",
+      "messageType": "message",
+      "createdDateTime": "2026-03-19T09:45:00Z",
+      "lastModifiedDateTime": "2026-03-19T09:45:00Z",
+      "from": {
+        "user": {
+          "id": "user-tom-001",
+          "displayName": "Tom Nguyen",
+          "userIdentityType": "aadUser"
+        }
+      },
+      "body": {
+        "contentType": "text",
+        "content": "What's the DB migration plan? KAI-007 is blocking two other tickets and nobody owns it. Should I pick it up?"
+      },
+      "channelIdentity": {
+        "teamId": "team-kairos-001",
+        "channelId": "channel-sprint4-001"
+      },
+      "channelDisplayName": "sprint-4",
+      "importance": "normal",
+      "locale": "en-us",
+      "mentions": [],
+      "attachments": [],
+      "reactions": [],
+      "replyToId": null,
+      "singleValueExtendedProperties": [
+        { "id": "String {b3c31a18-86c4-4f9d-84f0-e6b0d60a09d2} Name hasResponse", "value": "false" }
+      ]
+    },
+    {
+      "id": "1742382000000",
+      "messageType": "message",
+      "createdDateTime": "2026-03-19T10:00:00Z",
+      "lastModifiedDateTime": "2026-03-19T10:00:00Z",
+      "from": {
+        "user": {
+          "id": "user-marcus-001",
+          "displayName": "Marcus Reid",
+          "userIdentityType": "aadUser"
+        }
+      },
+      "body": {
+        "contentType": "text",
+        "content": "I told James we'd have an update by 3pm today. We need to sort the export blocker before then."
+      },
+      "channelIdentity": {
+        "teamId": "team-kairos-001",
+        "channelId": "channel-clientcomms-001"
+      },
+      "channelDisplayName": "client-comms",
+      "importance": "high",
+      "locale": "en-us",
+      "mentions": [],
+      "attachments": [],
+      "reactions": [],
+      "replyToId": null,
+      "singleValueExtendedProperties": [
+        { "id": "String {b3c31a18-86c4-4f9d-84f0-e6b0d60a09d2} Name hasResponse", "value": "false" }
+      ]
+    }
+  ]
+}
